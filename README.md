@@ -6,6 +6,6 @@ In this application, there are these patterns:
 -Abstract Factory Pattern
 -Strategy Pattern
 
-There are these diagram:
+There are these diagrams:
 -UML Class Diagram
 
