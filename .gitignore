@@ -1,0 +1,17 @@
+bin/
+/Main.class
+/ProductFactoryProvider.class
+/ProductFactory.class
+/BookFactory.class
+/Book.class
+/Drama.class
+/Adventure.class
+/ScienceFiction.class
+/IProductFactory.class
+/IBook.class
+/IBookFactory.class
+/IPacketManager.class
+/StandartPackaging.class
+/PerishablePackaging.class
+/BreakablePackaging.class
+/PacketDepartment.class
