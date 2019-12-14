@@ -5,8 +5,21 @@ public class Main
 public static void main(String[] args)
    {  
 	   System.out.println("Hello App");
-	   String productType = "FrozenFood", packet;
 	   
+	   
+	   
+	   
+	   
+	   
+	   //take product from client and produce (create it)
+	   
+	   
+	   
+	   
+	   /*  //Give product type to packaging step 
+
+	   String productType = "FrozenFood", packet;
+
 	   if(productType == "FrozenFood") {
 		   PacketDepartment pd = new PacketDepartment(new PerishablePackaging());
 		   packet = pd.makeDecision(productType);
@@ -17,9 +30,10 @@ public static void main(String[] args)
 		   PacketDepartment pd = new PacketDepartment(new BreakablePackaging());
 		   packet = pd.makeDecision(productType);
 	   }
-	   
+
 	   System.out.println("Your packet is in "+packet);
 	   
+	    */
    }
    
 }
