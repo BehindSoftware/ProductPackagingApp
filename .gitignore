@@ -20,3 +20,10 @@ bin/
 /FrozenFood.class
 /FoodFactory.class
 /ProductFactoryProducer.class
+/DramaBook.class
+/AdventureBook.class
+/ScienceFictionBook.class
+/IMusicInstrument.class
+/StringMusicInstrument.class
+/VocalMusicInstrument.class
+/MusicInstrumentFactory.class

@@ -13,4 +13,16 @@ public class FoodFactory extends ProductFactory {
 		
 		return null;
 	}
+	
+	@Override
+	IBook getIBook(String productType) {
+		
+		return null;
+	}
+	
+	@Override
+	IMusicInstrument getIMusicInstrument(String productType) {
+		
+		return null;
+	}
 }

@@ -11,7 +11,7 @@ public static void main(String[] args)
 	   
 	   
 	   
-	   //take product from client and produce (create it)
+	   /*	//take product from client and produce (create it)
 	   
 	   ProductFactory productFactory = ProductFactoryProducer.getFactory("Food");
 	   
@@ -19,7 +19,19 @@ public static void main(String[] args)
 	   
 	   System.out.println("Product Type:"+food1.getProductType());
 	   
+	   productFactory = ProductFactoryProducer.getFactory("Book");
 	   
+	   IBook book1 = productFactory.getIBook("AdventureBook");
+	   
+	   System.out.println("Product Type:"+book1.getProductType());
+	   
+	   productFactory = ProductFactoryProducer.getFactory("MusicInstrument");
+	   
+	   IMusicInstrument musicinstrument1 = productFactory.getIMusicInstrument("VocalMusicInstrument");
+	   
+	   System.out.println("Product Type:"+musicinstrument1.getProductType());
+	   
+	   */
 	   /*  //Give product type to packaging step 
 
 	   String productType = "FrozenFood", packet;
