@@ -1,6 +1,14 @@
 
 public class FoodFactory extends ProductFactory {
 
+	private static FoodFactory instance = new FoodFactory();
+	
+	private FoodFactory() {	}
+	
+	public static FoodFactory getInstance() {
+		return instance;
+	}
+	
 	@Override
 	public IFood getIFood(String productType) {
 		

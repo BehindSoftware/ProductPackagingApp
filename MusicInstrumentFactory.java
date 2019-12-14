@@ -1,6 +1,16 @@
 
 public class MusicInstrumentFactory extends ProductFactory{
 
+	
+	private static MusicInstrumentFactory instance = new MusicInstrumentFactory();
+	
+	private MusicInstrumentFactory() {	}
+	
+	public static MusicInstrumentFactory getInstance() {
+		return instance;
+	}
+	
+	
 	@Override
 	IMusicInstrument getIMusicInstrument(String productType) {
 		if(productType.equalsIgnoreCase("StringMusicInstrument")) {

@@ -2,12 +2,13 @@
 public class ProductFactoryProducer {
 
 	public static ProductFactory getFactory(String product) {
+		
 		if(product.equalsIgnoreCase("Food")) {
-			return new FoodFactory();
+			return FoodFactory.getInstance();
 		}else if (product.equalsIgnoreCase("Book")) {
-			return new BookFactory();
+			return BookFactory.getInstance();
 		}else if(product.equalsIgnoreCase("MusicInstrument")) {
-			return new MusicInstrumentFactory();
+			return MusicInstrumentFactory.getInstance();
 		}
 		
 		return null;

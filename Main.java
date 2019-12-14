@@ -11,7 +11,7 @@ public static void main(String[] args)
 	   
 	   
 	   
-	   /*	//take product from client and produce (create it)
+	   	//take product from client and produce (create it)
 	   
 	   ProductFactory productFactory = ProductFactoryProducer.getFactory("Food");
 	   
@@ -31,7 +31,7 @@ public static void main(String[] args)
 	   
 	   System.out.println("Product Type:"+musicinstrument1.getProductType());
 	   
-	   */
+	   
 	   /*  //Give product type to packaging step 
 
 	   String productType = "FrozenFood", packet;
@@ -39,7 +39,7 @@ public static void main(String[] args)
 	   if(productType == "FrozenFood") {
 		   PacketDepartment pd = new PacketDepartment(new PerishablePackaging());
 		   packet = pd.makeDecision(productType);
-	   }else if(productType == "Drama" || productType == "Adventure" || productType == "ScienceFiction" || productType == "FreshFood") {
+	   }else if(productType == "DramaBook" || productType == "AdventureBook" || productType == "ScienceFictionBook" || productType == "FreshFood") {
 		   PacketDepartment pd = new PacketDepartment(new StandartPackaging());
 		   packet = pd.makeDecision(productType);
 	   }else {

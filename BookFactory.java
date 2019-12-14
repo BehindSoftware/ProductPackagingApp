@@ -1,6 +1,15 @@
 
 public class BookFactory extends ProductFactory {
 
+	private static BookFactory instance = new BookFactory();
+	
+	private BookFactory() {	}
+	
+	public static BookFactory getInstance() {
+		return instance;
+	}
+	
+	
 	@Override
 	IBook getIBook(String productType) {
 	
