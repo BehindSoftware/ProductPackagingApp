@@ -13,7 +13,11 @@ public static void main(String[] args)
 	   
 	   //take product from client and produce (create it)
 	   
+	   ProductFactory productFactory = ProductFactoryProducer.getFactory("Food");
 	   
+	   IFood food1 = productFactory.getIFood("FrozenFood");
+	   
+	   System.out.println("Product Type:"+food1.getProductType());
 	   
 	   
 	   /*  //Give product type to packaging step 

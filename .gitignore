@@ -15,3 +15,8 @@ bin/
 /PerishablePackaging.class
 /BreakablePackaging.class
 /PacketDepartment.class
+/IFood.class
+/FreshFood.class
+/FrozenFood.class
+/FoodFactory.class
+/ProductFactoryProducer.class
