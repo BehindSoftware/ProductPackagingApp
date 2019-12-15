@@ -6,10 +6,20 @@ public static void main(String[] args)
    {  
 	   System.out.println("Hello App");
 	   
+	   //Take Product and Type from user
 	   
+	   Model      model      = new Model();
+	   View       view       = new View();
+	   Controller controller = new Controller(model, view);
+
+	   view.setVisible(true);
 	   
-	   
-	   
+//	   controller.getMainComboBoxValue();
+//	   
+//	   controller.getSubComboBoxValue();
+//	   
+//	   System.out.println(""+controller.getMainComboBoxValue());
+//	   System.out.println(""+controller.getSubComboBoxValue());
 	   
 	   	//take product from client and produce (create it)
 	   
@@ -32,7 +42,7 @@ public static void main(String[] args)
 	   System.out.println("Product Type:"+musicinstrument1.getProductType());
 	   
 	   
-	   /*  //Give product type to packaging step 
+	     //Give product type to packaging step 
 
 	   String productType = "FrozenFood", packet;
 
@@ -46,10 +56,10 @@ public static void main(String[] args)
 		   PacketDepartment pd = new PacketDepartment(new BreakablePackaging());
 		   packet = pd.makeDecision(productType);
 	   }
-
+	   //m_model.setValue(packet);
 	   System.out.println("Your packet is in "+packet);
 	   
-	    */
+	    
    }
    
 }

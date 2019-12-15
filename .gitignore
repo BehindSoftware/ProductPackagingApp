@@ -27,3 +27,9 @@ bin/
 /StringMusicInstrument.class
 /VocalMusicInstrument.class
 /MusicInstrumentFactory.class
+/MainView.class
+/Controller$ButtonListener.class
+/Controller$ComboBoxListener.class
+/Controller.class
+/Model.class
+/View.class
