@@ -50,6 +50,11 @@ public class View extends JPanel
         frame.setVisible( true );
     }
     
+    public void showMessage(String packetType) {
+    
+    	JOptionPane.showMessageDialog(null, ""+packetType);
+    }
+    
     public JComboBox<String> getMainComboBox() {
 		return mainComboBox;
 	}

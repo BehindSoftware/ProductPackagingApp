@@ -3,7 +3,6 @@ package src;
 import java.awt.event.*;
 
 import javax.swing.DefaultComboBoxModel;
-import javax.swing.JOptionPane;
 
 public class Controller {
     //... The Controller needs to interact with both the Model and View.
@@ -41,8 +40,9 @@ public class Controller {
     		
 		@Override
 		public void actionPerformed(ActionEvent arg0) {
-			JOptionPane.showMessageDialog(null, ""+m_model.getValue());
-			
+			m_model.setValue(getSubComboBoxValue());
+			PacketDepartment pd  = m_model.determinePacketType(m_model.getValue());
+			m_view.showMessage(pd.getPacketType());	
 		}
     }
     
