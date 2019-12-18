@@ -7,7 +7,7 @@ public class PerishablePackaging implements IPacketManager {
 	public String packagingOperation() {
 		
 		
-		return "Box with dry ice";
+		return "Product is packaged a box with dry ice.";
 	}
 
 }

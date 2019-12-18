@@ -9,7 +9,7 @@ public class StandartPackaging implements IPacketManager {
 		
 		
 		
-		return "Box";
+		return "Product is packaged a standart box.";
 	}
 	
 }

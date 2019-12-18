@@ -6,6 +6,6 @@ public class BreakablePackaging implements IPacketManager {
 	@Override
 	public String packagingOperation() {
 		
-		return "Box with packaing foam";
+		return "Product is packaged a box with packaing foam.";
 	}
 }
