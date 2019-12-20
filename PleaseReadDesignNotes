@@ -1,0 +1,4 @@
+Abstract Factory Pattern is used for create product section.
+Singleton Pattern is used for factory, because we have one factory for each type of product.
+Strategy Pattern is used for packaging section.
+MVC Pattern is used for user interface.

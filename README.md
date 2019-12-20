@@ -8,4 +8,5 @@ In this application, there are these patterns:
 
 There are these diagrams:
 -UML Class Diagram
+-UML Sequence Diagram
 

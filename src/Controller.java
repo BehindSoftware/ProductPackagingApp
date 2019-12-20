@@ -40,6 +40,7 @@ public class Controller {
 		
 		@Override
 		public void actionPerformed(ActionEvent arg0) {
+			System.out.println("xxx:"+getMainComboBoxValue()+getSubComboBoxValue()+":xxx");
 			m_model.setValue(getSubComboBoxValue());      
 			PacketDepartment pd  = m_model.determinePacketType(m_model.createProduct(getMainComboBoxValue(),getSubComboBoxValue()));
 			m_view.showMessage(pd.getPacketType());	
