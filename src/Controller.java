@@ -37,11 +37,11 @@ public class Controller {
     }
 
     class ButtonListener implements ActionListener {
-    		
+		
 		@Override
 		public void actionPerformed(ActionEvent arg0) {
-			m_model.setValue(getSubComboBoxValue());
-			PacketDepartment pd  = m_model.determinePacketType(m_model.getValue());
+			m_model.setValue(getSubComboBoxValue());      
+			PacketDepartment pd  = m_model.determinePacketType(m_model.createProduct(getMainComboBoxValue(),getSubComboBoxValue()));
 			m_view.showMessage(pd.getPacketType());	
 		}
     }
